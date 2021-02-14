@@ -10,18 +10,18 @@ CMedialib::Init();
 $path = $this->GetPath();
 
 $arResult['SCRIPTS'] = array(
-							$path.'/fancy/source/jquery.fancybox.pack.js',
-							$path.'/fancy/source/helpers/jquery.fancybox-buttons.js',
-							$path.'/fancy/source/helpers/jquery.fancybox-media.js',
-							$path.'/fancy/source/helpers/jquery.fancybox-thumbs.js',
-							$path.'/fancy/lib/jquery.mousewheel-3.0.6.pack.js'
-							);
+				$path.'/fancy/source/jquery.fancybox.pack.js',
+				$path.'/fancy/source/helpers/jquery.fancybox-buttons.js',
+				$path.'/fancy/source/helpers/jquery.fancybox-media.js',
+				$path.'/fancy/source/helpers/jquery.fancybox-thumbs.js',
+				$path.'/fancy/lib/jquery.mousewheel-3.0.6.pack.js'
+			    );
 $arResult['CSS'] = array(
-                            $path.'/fancy/source/jquery.fancybox.css?v=2.0.6',
-                            $path.'/fancy/source/helpers/jquery.fancybox-buttons.css?v=1.0.2',
-							$path.'/fancy/source/helpers/jquery.fancybox-thumbs.css?v=2.0.6',
-							$path.'/fancy/source/helpers/jquery.fancybox-thumbs.css?v=2.0.6'
-							);
+                           	$path.'/fancy/source/jquery.fancybox.css?v=2.0.6',
+                           	$path.'/fancy/source/helpers/jquery.fancybox-buttons.css?v=1.0.2',
+				$path.'/fancy/source/helpers/jquery.fancybox-thumbs.css?v=2.0.6',
+				$path.'/fancy/source/helpers/jquery.fancybox-thumbs.css?v=2.0.6'
+			);
      
 if(!is_array($arParams['CHOSEN_COLLECTIONS']))  {
 	$arParams['CHOSEN_COLLECTIONS'] = array($arParams['CHOSEN_COLLECTIONS']);
