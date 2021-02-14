@@ -43,12 +43,12 @@ if(!is_array($arParams['CHOSEN_COLLECTIONS']))  {
                   }
             }
 $this->SetResultCacheKeys(
-						   array(
-                        		'ID',
-								'SCRIPTS',
-								'CSS',
-								)
-						  );
+			array(
+                        	'ID',
+				'SCRIPTS',
+				'CSS',
+				)
+			);
 
 $this->IncludeComponentTemplate();
 ?>
